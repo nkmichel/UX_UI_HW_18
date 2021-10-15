@@ -5,6 +5,7 @@ header {
   background-color: #abcdc7;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 header ul {
   color: white;
@@ -12,12 +13,21 @@ header ul {
 }
 header li {
   display: inline-block;
-  padding: 0px 16px ;
   font-family: playfair display, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header li a{
   text-decoration: none;
   color: aliceblue;
   font-size: xx-large;
-  text-align: center;
+  padding: 20px 16px ;
+}
+header li a.active{
+  background-color: #ffffff31;
+}
+header li a:hover{
+background-color: #ffffff31;
 }
 header img {
   height: 77px;
