@@ -3,16 +3,16 @@ body {
 }
 header {
   background-color: #abcdc7;
+  display: flex;
+  align-items: center;
 }
 header ul {
   color: white;
-  text-align: center;
-  position: relative;
   padding: 0px 7px;
 }
 header li {
-  display: inline;
-  padding: 80px;
+  display: inline-block;
+  padding: 0px 16px ;
   font-family: playfair display, Helvetica, sans-serif;
   text-decoration: none;
   color: aliceblue;
@@ -21,7 +21,6 @@ header li {
 }
 header img {
   height: 77px;
-  width: 91px;
 }
 .heroImg p {
   display: inline-block;
