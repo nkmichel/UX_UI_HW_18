@@ -3,6 +3,11 @@ body {
 }
 header {
   background-color: #abcdc7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
 header ul {
   color: white;
