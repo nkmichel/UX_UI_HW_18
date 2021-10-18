@@ -165,11 +165,81 @@ div .myWork {
   text-decoration: none;
   color: #3d405b;
 }
-@media only screen and (max-width: 600) {
-  body {
+.flexContainer h1 {
+  grid-area: h1;
+}
+.flexContainer .img {
+  grid-area: img;
+}
+.flexContainer .h3 {
+  grid-area: h3;
+}
+.myWork .projectOne {
+  grid-area: projectOne;
+}
+.myWork .workGrid {
+  grid-area: workGrid;
+}
+.myWork .projectTwo {
+  grid-area: projectTwo;
+}
+.workGrid .projectInfoone {
+  grid-area: projectInfoone;
+}
+.workGrid .projectInfotwo {
+  grid-area: projectInfotwo;
+}
+@media only screen and (max-width: 600px) {
+  .flexContainer {
     width: 100%;
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
 }
+@media only screen and (max-width: 600px) {
+  .flexContainer .img {
+    width: 100%;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flexContainer .h3 {
+    width: 100%;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flexContainer .p {
+    width: 100%;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .myWork {
+    width: 100%;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .workGrid {
+    width: 100%;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1 fr 1fr;
+    grid-template-areas:
+      "projectOne"
+      "projectInfoone"
+      "projectTwo"
+      "projectInfotwo";
+  }
+}
+
