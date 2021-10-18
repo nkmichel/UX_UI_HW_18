@@ -189,6 +189,9 @@ div .myWork {
 .workGrid .projectInfotwo {
   grid-area: projectInfotwo;
 }
+.workGrid h3 {
+  grid-area: h3;
+}
 @media only screen and (max-width: 600px) {
   .flexContainer {
     width: 100%;
@@ -239,7 +242,8 @@ div .myWork {
       "projectOne"
       "projectInfoone"
       "projectTwo"
-      "projectInfotwo";
+      "projectInfotwo"
+      "h3";
   }
 }
 
